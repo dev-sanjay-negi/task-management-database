@@ -1,16 +1,220 @@
 {
-  "posts":[
+  "data": [
     {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
-    }
-  ],
-  "comments" : [
+      "id": "1",
+      "task_title": "Complete project proposal",
+      "task_desc": "Write a detailed project proposal for the upcoming project.",
+      "task_duedate": "2024-03-10",
+      "task_priority": "high",
+      "task_assgined_to": "John Doe",
+      "task_tags": "project, proposal, documentation",
+      "task_status": "pending",
+      "created_at": "2024-03-01T09:00:00",
+      "updated_at": "2024-03-06T20:16:06.861Z"
+    },
     {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
+      "id": "2",
+      "task_title": "Review code changes",
+      "task_desc": "Review and test the latest code changes in the development branch.",
+      "task_duedate": "2024-03-12",
+      "task_priority": "medium",
+      "task_assgined_to": "Jane Smith",
+      "task_tags": "code review, testing, development",
+      "task_status": "inprocess",
+      "created_at": "2024-03-02T10:30:00",
+      "updated_at": "2024-03-02T10:30:00"
+    },
+    {
+      "id": "3",
+      "task_title": "Prepare presentation slides",
+      "task_desc": "Create presentation slides for the upcoming client meeting.",
+      "task_duedate": "2024-03-15",
+      "task_priority": "high",
+      "task_assgined_to": "Alex Johnson",
+      "task_tags": "presentation, client meeting, design",
+      "task_status": "pending",
+      "created_at": "2024-03-03T14:45:00",
+      "updated_at": "2024-03-03T14:45:00"
+    },
+    {
+      "id": "4",
+      "task_title": "Fix bug in login module",
+      "task_desc": "Investigate and fix the bug reported in the login module of the application.",
+      "task_duedate": "2024-03-18",
+      "task_priority": "high",
+      "task_assgined_to": "David Wilson",
+      "task_tags": "bug fix, troubleshooting, login, development",
+      "task_status": "inprocess",
+      "created_at": "2024-03-04T16:20:00",
+      "updated_at": "2024-03-04T16:20:00"
+    },
+    {
+      "id": "5",
+      "task_title": "Deploy new feature",
+      "task_desc": "Deploy the latest feature enhancements to the production environment.",
+      "task_duedate": "2024-03-20",
+      "task_priority": "medium",
+      "task_assgined_to": "Emily Brown",
+      "task_tags": "deployment, production, feature enhancement",
+      "task_status": "completed",
+      "created_at": "2024-03-05T08:15:00",
+      "updated_at": "2024-03-05T08:15:00"
+    },
+    {
+      "id": "6",
+      "task_title": "Update user interface",
+      "task_desc": "Implement design changes and improve user interface elements.",
+      "task_duedate": "2024-03-25",
+      "task_priority": "medium",
+      "task_assgined_to": "Michael Lee",
+      "task_tags": "ui/ux, design, frontend",
+      "task_status": "inprocess",
+      "created_at": "2024-03-06T11:10:00",
+      "updated_at": "2024-03-06T11:10:00"
+    },
+    {
+      "id": "7",
+      "task_title": "Write API documentation",
+      "task_desc": "Document the API endpoints and usage for the backend services.",
+      "task_duedate": "2024-03-28",
+      "task_priority": "high",
+      "task_assgined_to": "Sarah Clark",
+      "task_tags": "api, documentation, backend",
+      "task_status": "pending",
+      "created_at": "2024-03-07T13:20:00",
+      "updated_at": "2024-03-07T13:20:00"
+    },
+    {
+      "id": "8",
+      "task_title": "Conduct product testing",
+      "task_desc": "Perform thorough testing of the product to identify and resolve issues.",
+      "task_duedate": "2024-04-02",
+      "task_priority": "high",
+      "task_assgined_to": "Chris Evans",
+      "task_tags": "testing, quality assurance, product",
+      "task_status": "pending",
+      "created_at": "2024-03-08T15:30:00",
+      "updated_at": "2024-03-08T15:30:00"
+    },
+    {
+      "id": "9",
+      "task_title": "Optimize database queries",
+      "task_desc": "Analyze and optimize database queries to improve application performance.",
+      "task_duedate": "2024-04-05",
+      "task_priority": "medium",
+      "task_assgined_to": "Emma Wilson",
+      "task_tags": "database, optimization, performance",
+      "task_status": "inprocess",
+      "created_at": "2024-03-09T17:40:00",
+      "updated_at": "2024-03-09T17:40:00"
+    },
+    {
+      "id": "10",
+      "task_title": "Create user registration module",
+      "task_desc": "Develop the user registration module for the application.",
+      "task_duedate": "2024-04-10",
+      "task_priority": "high",
+      "task_assgined_to": "James Anderson",
+      "task_tags": "registration, authentication, frontend, backend",
+      "task_status": "completed",
+      "created_at": "2024-03-10T09:50:00",
+      "updated_at": "2024-03-10T09:50:00"
+    },
+    {
+      "id": "11",
+      "task_title": "Implement payment gateway integration",
+      "task_desc": "Integrate payment gateway for accepting online payments in the application.",
+      "task_duedate": "2024-04-15",
+      "task_priority": "high",
+      "task_assgined_to": "Olivia Martin",
+      "task_tags": "payment integration, frontend, backend, finance",
+      "task_status": "pending",
+      "created_at": "2024-03-11T11:55:00",
+      "updated_at": "2024-03-11T11:55:00"
+    },
+    {
+      "id": "12",
+      "task_title": "Create landing page design",
+      "task_desc": "Design a captivating landing page to attract potential customers.",
+      "task_duedate": "2024-04-20",
+      "task_priority": "medium",
+      "task_assgined_to": "Noah Taylor",
+      "task_tags": "landing page, design, marketing",
+      "task_status": "pending",
+      "created_at": "2024-03-12T14:00:00",
+      "updated_at": "2024-03-12T14:00:00"
+    },
+    {
+      "id": "13",
+      "task_title": "Write user documentation",
+      "task_desc": "Prepare comprehensive documentation to guide users on using the application.",
+      "task_duedate": "2024-04-25",
+      "task_priority": "medium",
+      "task_assgined_to": "Ava Wilson",
+      "task_tags": "user documentation, guide, support",
+      "task_status": "completed",
+      "created_at": "2024-03-13T16:10:00",
+      "updated_at": "2024-03-13T16:10:00"
+    },
+    {
+      "id": "14",
+      "task_title": "Create admin dashboard",
+      "task_desc": "Develop an intuitive admin dashboard for managing application settings and data.",
+      "task_duedate": "2024-04-30",
+      "task_priority": "high",
+      "task_assgined_to": "Ethan Thomas",
+      "task_tags": "admin dashboard, frontend, backend",
+      "task_status": "pending",
+      "created_at": "2024-03-14T18:20:00",
+      "updated_at": "2024-03-14T18:20:00"
+    },
+    {
+      "id": "15",
+      "task_title": "Enhance security measures",
+      "task_desc": "Implement additional security measures to safeguard user data and application resources.",
+      "task_duedate": "2024-05-05",
+      "task_priority": "high",
+      "task_assgined_to": "Isabella Martinez",
+      "task_tags": "security, encryption, cybersecurity",
+      "task_status": "pending",
+      "created_at": "2024-03-15T20:30:00",
+      "updated_at": "2024-03-15T20:30:00"
+    },
+    {
+      "id": "16",
+      "task_title": "Write technical specifications",
+      "task_desc": "Document detailed technical specifications for the upcoming feature enhancements.",
+      "task_duedate": "2024-05-10",
+      "task_priority": "medium",
+      "task_assgined_to": "Lucas Thompson",
+      "task_tags": "technical specifications, documentation",
+      "task_status": "pending",
+      "created_at": "2024-03-16T09:40:00",
+      "updated_at": "2024-03-16T09:40:00"
+    },
+    {
+      "id": "17",
+      "task_title": "Perform code refactoring",
+      "task_desc": "Refactor existing codebase to improve code structure and maintainability.",
+      "task_duedate": "2024-05-15",
+      "task_priority": "medium",
+      "task_assgined_to": "Mia Garcia",
+      "task_tags": "code refactoring, optimization, development",
+      "task_status": "pending",
+      "created_at": "2024-03-17T11:50:00",
+      "updated_at": "2024-03-17T11:50:00"
+    },
+    {
+      "id": "18",
+      "task_title": "Create automated tests",
+      "task_desc": "Develop automated test cases to ensure software quality and reliability.",
+      "task_duedate": "2024-05-20",
+      "task_priority": "high",
+      "task_assgined_to": "Liam Rodriguez",
+      "task_tags": "automated tests, testing, quality assurance",
+      "task_status": "pending",
+      "created_at": "2024-03-18T13:55:00",
+      "updated_at": "2024-03-18T13:55:00"
     }
   ]
 }
